@@ -1,0 +1,73 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.welcome-section h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.welcome-section p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions .take-photo-button,
+.actions .upload-photo-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions .take-photo-button:hover,
+.actions .upload-photo-button:hover {
+  background-color: #0056b3;
+}
+
+.preview-section {
+  margin-top: 40px;
+}
+
+.preview-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.photo-grid-preview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.photo-grid-preview div {
+  background-color: #eee;
+  height: 100px; /* Adjust size as needed */
+  border-radius: 5px;
+}
+
+.feedback-invite {
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+
+.feedback-invite a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.feedback-invite a:hover {
+  text-decoration: underline;
+}
