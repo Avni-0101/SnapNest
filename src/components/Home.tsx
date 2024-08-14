@@ -9,10 +9,10 @@ const ExploreContainer: React.FC = () => {
         <p>Capture moments, upload images, and see them instantly displayed.</p>
       </header>
       <div className="actions">
-      <a href="/tab2"><button className="take-photo-button">Take a Picture</button></a>
+      <a href="https://snap-nest-111.netlify.app/tab2"><button className="take-photo-button">Take a Picture</button></a>
       </div>
       <footer className="feedback-invite">
-        <p>Have feedback? <a href="/tab3">Let us know!</a></p>
+        <p>Have feedback? <a href="https://snap-nest-111.netlify.app/tab3">Let us know!</a></p>
       </footer>
     </div>
   );
